@@ -1,17 +1,17 @@
 /*----------------------------------------------------------
-	Tema: "Site Responsivo HTML5 e CSS3"
+	Tema: "The best candy´s"
 	Data: 11/2022
 	Versão: 3.1
 	Data Atualização: 11/2022
-	Author: Prof. Cleber Leão
-	Author URL: http://www.cleberleao.com
+	Author: Ronei Higor
+	Author URL: http://www.roneihigor.com
 -----------------------------------------------------------*/
 
 /*----------------------------------------------------------
 Configs Gerais 
 ----------------------------------------------------------*/
-body{
-	background:url(../img/background.jpg); 
+body{ 
+	background:url(../img/fundos.jpg); 
 	color:#868686; 
 	font-family: "Open Sans", Helvetica, sans-serif, arial; 
 	font-size: 18px; /* 18px a· 16px = 1.125em */
@@ -24,6 +24,10 @@ body{
 	margin: 0 auto;
 	max-width:1300px; /*largura maxima do layout*/
 	width: 90%; /*ajuste do layout a  tela*/
+}
+
+.centro img{
+	width:146px;
 }
 /*.clearfixbody usado para adicionar um espaço vazio antes e depois dos elementos
   evitando que os floats se aglomerem.
@@ -141,7 +145,7 @@ nav{
 	}
 
 .meio{
-	background-color:#0ac3fe;
+	background:url(../img/fundin.jpg);
 	height: 437px;
 	padding: 2.5%;
 	width: 95%;
@@ -223,13 +227,14 @@ footer{
 }
 .copyleft{
 	float: left;
-	margin-left: 2.5%;
+	margin-left: 3.5%;
 }
 .desenvolvedor{
 	float:right
 }
 .desenvolvedor figure{
-	width:100%;
+	width:20%;
+	padding-left:300px
 }
 
 @media screen and (max-width: 999px){
